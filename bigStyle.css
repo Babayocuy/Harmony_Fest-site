@@ -135,7 +135,7 @@ select {
 /* ================== HEADERRRRRR ==================*/
 
 header {
-  background-image: url(/asset/_BEYOND___-removebg3.png);
+  background-image: url(asset/_BEYOND___-removebg3.png);
   background-size: cover;
   background-position: center 100%;
 
@@ -364,7 +364,7 @@ header {
 }
 
 .bx {
-  background-image: url(/asset/Overlay\ film_\ Overlay\ texture.png);
+  background-image: url(asset/Overlay\ film_\ Overlay\ texture.png);
   background-size: cover;
   background-position: center;
   border-radius: 4.375rem;
@@ -387,7 +387,7 @@ header {
 }
 
 .bx__text::before {
-  content: url(/asset/travis-float.png);
+  content: url(asset/travis-float.png);
   position: absolute;
   top: -22%;
 }
