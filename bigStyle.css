@@ -107,29 +107,29 @@ select {
 /* FONT FACEEEEE */
 @font-face {
   font-family: helveticaNow;
-  src: url(/font/helveticanowtext-black-demo.ttf);
+  src: url(font/helveticanowtext-black-demo.ttf);
   font-weight: 900;
 }
 
 @font-face {
   font-family: helveticaNow;
-  src: url(/font/helveticanowtext-bold-demo.ttf);
+  src: url(font/helveticanowtext-bold-demo.ttf);
   font-weight: bold;
 }
 
 @font-face {
   font-family: highrise regular;
-  src: url(/font/HighriseDemo\ 400.otf);
+  src: url(font/HighriseDemo\ 400.otf);
 }
 
 @font-face {
   font-family: highriseBold;
-  src: url(/font/HighriseDemoBold\ 700.otf);
+  src: url(font/HighriseDemoBold\ 700.otf);
 }
 
 @font-face {
   font-family: highriseCon;
-  src: url(/font/HighriseDemoCondensed\ 400.otf);
+  src: url(font/HighriseDemoCondensed\ 400.otf);
 }
 
 /* ================== HEADERRRRRR ==================*/
