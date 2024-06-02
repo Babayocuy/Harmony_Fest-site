@@ -543,16 +543,15 @@ header {
     color: var(--clr-neutral100);
   }
 
-  h5 {
-    font-size: 3rem;
-    word-spacing: 5px;
-    letter-spacing: 1px;
+  h3 {
+    font-size: 2.5rem;
+    word-spacing: 2px;
+    letter-spacing: 3px;
   }
 
   @media (max-width: 48em) {
-    > * {
-      font-family: highrise regular;
-      color: black;
+    h3 {
+      font-size: 1.8rem;
     }
   }
 
@@ -583,112 +582,6 @@ header {
     h1 {
       font-size: 3.5rem;
       margin-bottom: 1rem;
-    }
-  }
-}
-
-.carousel-ct {
-  display: flex;
-  gap: 2rem;
-}
-
-.c-container {
-  display: flex;
-  align-items: end;
-}
-
-.c-container:nth-child(1) {
-  background-color: var(--clr-primary300);
-}
-.c-container:nth-child(2) {
-  background-color: var(--clr-primary200);
-}
-.c-container:nth-child(3) {
-  background-color: var(--clr-primary400);
-}
-.c-container:nth-child(4) {
-  background-color: var(--clr-primary600);
-}
-.c-container:nth-child(5) {
-  background-color: rgb(95, 95, 95);
-}
-
-.c-item h3 {
-  color: var(--clr-neutral100);
-  letter-spacing: 3px;
-  font-size: 3rem;
-}
-
-@media (max-width: 78.125em) {
-  .c-item h3 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 64em) {
-  .c-item h3 {
-    font-size: 1rem;
-  }
-}
-
-.c-image {
-  object-fit: cover;
-  object-position: center;
-  aspect-ratio: 0.5;
-}
-
-.mobile-carousel-ct {
-  display: none;
-}
-
-@media (max-width: 48em) {
-  .c-container {
-    display: none;
-  }
-
-  /* CAROUSELLLLLLLL MOBILEEEE */
-  .mobile-carousel-ct {
-    display: block;
-
-    .carousel-inner {
-      padding: 1em;
-    }
-    .card {
-      margin: 0 0.5em;
-      border: none;
-      background-color: #cbcbcb;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-      background-color: #e1e1e1;
-      width: 6vh;
-      height: 6vh;
-      border-radius: 50%;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    .card .img-wrapper {
-      max-width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: end;
-    }
-    .card img {
-      max-height: 100%;
-    }
-
-    @media (max-width: 768px) {
-      .card .img-wrapper {
-        height: 30rem;
-      }
-    }
-
-    @media (max-width: 36em) {
-      .card .img-wrapper {
-        height: 20rem;
-      }
     }
   }
 }
